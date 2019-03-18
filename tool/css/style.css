@@ -1,0 +1,62 @@
+* {
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.padding-top
+{
+ padding-top: 40px;
+}
+.padding-bottom
+{
+    padding-bottom: 40px;
+}
+.header-area, .header-area a {
+    background: #4E7F16;
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 0;
+}
+.header-area img {
+    height: 20px;
+    width: 20px;
+}
+
+.foter-area
+{
+    background: #1E2225;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+.social-links a {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* ====== app CSS ==== */
+.home-page {
+    background: #E6EDDE;
+    padding: 15px;
+}
