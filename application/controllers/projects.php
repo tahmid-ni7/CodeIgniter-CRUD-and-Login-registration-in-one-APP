@@ -36,8 +36,8 @@ class Projects extends CI_Controller {
 /*================= Insert the data ====================*/
 	public function create()
 	{
-		$this->form_validation->set_rules('project_name', 'project name', 'trim|required|alpha');
-		$this->form_validation->set_rules('project_body', 'Project description', 'trim|required');
+		$this->form_validation->set_rules('project_name', 'project name', 'trim|required|alpha_numeric_spaces|strip_tags[project_name]');
+		$this->form_validation->set_rules('project_body', 'Project description', 'trim|required|strip_tags[description]');
 
 		if($this->form_validation->run() == FALSE)
 		{
